@@ -14,4 +14,5 @@ CREATE TABLE albums (
   band_id INT NOT NULL,
   PRIMARY KEY (id),
   FOREIGN KEY (band_id) REFERENCES bands(id)
+  
 );
